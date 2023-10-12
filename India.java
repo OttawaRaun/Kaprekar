@@ -3,7 +3,7 @@ import java.util.*;
 
 /*
  * Kaprekar's constant 6174. Kaprekars constant is a theorem that stipulates if we have a 4 digit number and sort it out into descending
- * and ascending orders respectively, and then subtract those sortings from another and then run the result from the subtraction
+ * and ascending orders respectively, and then subtract those sortings from one another and then run the result from the subtraction
  * through the whole sorting process once again, we're to bound to getting the result 6174 eventually.
  * 
  * this class calculates how many subtractions it takes to reach the constant from a given number supplied by the user.
